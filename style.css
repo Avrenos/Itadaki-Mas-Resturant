@@ -1,0 +1,142 @@
+body {
+  background-color: #ffd700; /* Soft gray background for better contrast */
+}
+
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black; /* Darker background for better readability */
+  padding: 15px; /* Adding padding for spacing */
+  color: #ffd700; /* Text color for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  font-weight: bold;
+  background-color: black;
+}
+
+h1 {
+  color: #ffd700;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.nav {
+  color: #ffd700;
+}
+
+.nav:link {
+  text-decoration: none;
+}
+
+.nav:visited {
+  color: #ffd700;
+}
+
+.nav:hover {
+  color: #333; /* Darken text on hover for better contrast */
+  background-color: #ffd700;
+}
+
+.nav:active {
+  text-decoration: underline;
+}
+
+.round-image {
+  border-radius: 50%;
+  border: 2px solid black; /* Slightly darker border color for better contrast */
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.intro,
+.about,
+p,
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.Menu,
+.contact {
+  background-color: black; /* Dark background for better contrast */
+  color: #ffd700;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid #ffd700;
+  padding: 5px;
+  width: 100%;
+}
+
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffd700;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid transparent; /* Added default transparent border */
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s, border 0.3s; /* Added border transition */
+}
+
+button:hover {
+  background-color: black;
+  color: #ffd700;
+}
+
+footer {
+  background-color: #ffd700;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.address,
+.phone,
+.contact-us {
+  margin-bottom: 10px;
+}
+
+.foot:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.foot:visited {
+  color: #ffd700;
+}
+
+.foot:hover {
+  color: #ffd700; /* Darken text on hover for better contrast */
+  background-color: black;
+  border-radius: 4px;
+}
+
+.foot:active {
+  text-decoration: underline;
+}
